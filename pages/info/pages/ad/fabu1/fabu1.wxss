@@ -1,0 +1,13 @@
+.a {
+  border: 1px solid rgba(37, 231, 31, 0.863);
+  border-width: 50rpx;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 50rpx;
+  margin-bottom: 15rpx;
+  border-radius: 10rpx;
+  background-color: #fefefe;
+  box-shadow: 2px 2px 3px #00343f;
+}

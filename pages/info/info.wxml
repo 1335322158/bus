@@ -1,0 +1,36 @@
+<!--pages/info/info.wxml-->
+<view class="page">
+  <view class="info">
+    <image src="../../static/pic/github.png" class="info-logo"></image>
+    <text class="info-name">浙江科技学校校车时刻表</text>
+  </view>
+
+  <navigator class="navigator-top" hover-class="navigator-hover">
+    <image src="../../static/pic/tonz.png" class="navigator-img"></image>
+    <view class="navigator-text" wx:for="{{datalist}}" wx:key="index" bindtap="getDetail" data-item="{{item}}">{{item.name}}</view>
+    <view class="navigator-arrow"></view>
+  </navigator>
+
+  <navigator url="pages/notice/notice" class="navigator" hover-class="navigator-hover">
+    <image src="../../static/pic/view.png" class="navigator-img"></image>
+    <view class="navigator-text">告示</view>
+    <view class="navigator-arrow"></view>
+  </navigator>
+
+    <navigator url="pages/ad/ad" class="navigator" hover-class="navigator-hover">
+    <image src="../../static/pic/icon-test.png" class="navigator-img"></image>
+    <view class="navigator-text">管理员</view>
+    <view class="navigator-arrow"></view>
+  </navigator>
+
+  <navigator url="pages/usage/usage" class="navigator-top" hover-class="navigator-hover">
+    <image src="../../static/pic/form.png" class="navigator-img"></image>
+    <view class="navigator-text">使用说明</view>
+    <view class="navigator-arrow"></view>
+  </navigator>
+
+  <view class="ground">
+    <!-- <text class="ground-name">@czhongyu\n</text> -->
+    <text>v0.0.1 | <text class="ground-update">更新于2020年5月12日</text></text>
+  </view>
+</view>

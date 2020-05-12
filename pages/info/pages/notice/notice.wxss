@@ -1,0 +1,13 @@
+/* pages/info/pages/notice/notice.wxss */
+@import "../../../../static/wxss/weui.wxss";
+@import "../../info.wxss";
+
+
+.sign {
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  margin-left: 20%;
+}
+
+

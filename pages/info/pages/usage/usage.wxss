@@ -1,0 +1,22 @@
+/* pages/info/pages/usage/usage.wxss */
+@import "../../../../static/wxss/weui.wxss";
+@import "../../info.wxss";
+
+.footer{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+}
+
+.footer-img {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 10px;
+}
+
+.footer-text {
+  font-weight: 600;
+  font-size: 16px;
+}

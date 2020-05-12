@@ -1,0 +1,12 @@
+
+
+<view>
+  <view wx:for="{{tonzhi}}" wx:key="index">
+    <view class="b">
+      <view>
+        <text class="text">通知:</text>
+      </view>
+      <text decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item.tz}}</text>
+    </view>
+  </view>
+</view>

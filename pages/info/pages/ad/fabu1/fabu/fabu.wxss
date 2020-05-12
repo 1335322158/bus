@@ -1,0 +1,41 @@
+/*******容器********/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.container > view {
+  margin-bottom: 15rpx;
+  border-radius: 10rpx;
+  background-color: #fefefe;
+  box-shadow: 2px 2px 3px #00343f;
+}
+
+/*******框******/
+
+.commentbox > view {
+  display: flex;
+  justify-content: space-between;
+  color: #999;
+  font-size: 23rpx;
+  padding: 10rpx;
+}
+
+.commentbox textarea {
+  height: 800rpx;
+  width: 100%;
+  margin-top: 50rpx;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  background-color: #eee;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.commentbox button {
+  font-size: 28rpx;
+  font-weight: bold;
+}

@@ -1,0 +1,6 @@
+
+<block  wx:for="{{datalist}}" wx:key="index">
+  <view class="a" bindtap="getDetail" data-item="{{item}}">
+    <navigator>{{item.name}}</navigator>
+  </view>
+</block>

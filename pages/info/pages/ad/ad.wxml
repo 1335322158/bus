@@ -1,0 +1,17 @@
+-<view>
+  <image class="header" src="../../../../static/pic/guli.png"></image>
+  <view class="tip">管理员</view>
+  <view class="loginPane">
+    <view>
+      <image class="navigator-img" src="../../../../static/pic/zhanghao.png"></image>
+      <input class="account" placeholder="请输入账号" bindinput="getzhanghao"></input>
+    </view>
+    <view>
+      <image class="navigator-img" src="../../../../static/pic/mima.png"></image>
+      <input class="account" placeholder="请输入密码" bindblur="getmima"></input>
+    </view>
+    <view>
+      <button type="primary" class="login" bindtap="login">登 录</button>
+    </view>
+  </view>
+</view>
